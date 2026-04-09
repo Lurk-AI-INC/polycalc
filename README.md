@@ -1,4 +1,4 @@
-# Binary Market Calculator
+# PolyCalc - Binary Market Calculator
 
 Single-page Next.js + TypeScript utility for binary market traders.
 
