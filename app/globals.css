@@ -57,7 +57,10 @@ input {
   font-size: 0.75rem;
 }
 
-.hero h1,
+.hero h1 {
+  margin-bottom: 12px;
+}
+
 .panel-header h2,
 .result-card h2 {
   margin: 0;
@@ -279,6 +282,7 @@ input:focus {
   color: var(--muted);
   text-align: center;
   font-size: 0.95rem;
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {

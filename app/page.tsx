@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import {
   calculate,
   formatCurrency,
@@ -150,8 +151,8 @@ export default function HomePage() {
       <div className="page-frame">
         <header className="hero">
           <p className="eyebrow">Binary pricing utility</p>
-          <h1>PolyCalc (v0.1)</h1>
-          <p className="hero-copy">Price. Edge. EV. Kelly.</p>
+          <h1 className="title">PolyCalc (v0.1)</h1>
+          By <Link href="https://lurk-ai.com">Lurk</Link>.
         </header>
 
         <section className="panel input-panel">
@@ -287,11 +288,10 @@ export default function HomePage() {
         </section>
 
         <footer className="footer-note">
-          Generic binary contract math. User-supplied fee assumptions.
+          Open source tool from <Link href="https://lurk-ai.com">Lurk</Link>. User-supplied fee assumptions.
         </footer>
       </div>
     </main>
   );
 }
 
-/* Suggested commit message: rebuild calculator as Next.js + TypeScript single-page utility */
