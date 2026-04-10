@@ -146,5 +146,3 @@ export default function HomePage() {
     </main>
   );
 }
-
-/* Suggested commit message: create PolyCore landing page and merged product shell */

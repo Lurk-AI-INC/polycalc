@@ -643,4 +643,3 @@ export default function HomePage() {
 }
 
 
-/* Suggested commit message: merge PolyCalc into PolyCore calculator module */

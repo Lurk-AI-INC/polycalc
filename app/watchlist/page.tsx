@@ -327,4 +327,3 @@ export default function WatchlistPage() {
   );
 }
 
-/* Suggested commit message: add PolyCore watchlist with live Kalshi market loading and calculator handoff */

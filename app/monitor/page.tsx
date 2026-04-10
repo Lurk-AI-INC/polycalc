@@ -317,4 +317,3 @@ export default function MonitorPage() {
   );
 }
 
-/* Suggested commit message: add PolyCore monitor with live board, selection detail, and session logs */
