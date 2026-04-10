@@ -27,7 +27,7 @@ export default function HomePage() {
       <div className="page-frame">
         <div className="topbar panel-surface">
           <div className="brand-lockup">
-            <div className="brand-mark">P</div>
+            <div className="brand-mark">PC</div>
             <div>
               <p className="eyebrow">Open-source binary market toolkit by Lurk</p>
               <div className="brand-line">
@@ -45,7 +45,7 @@ export default function HomePage() {
 
         <header className="hero panel-surface">
           <div className="hero-copy-wrap">
-            <p className="eyebrow">Calculate. Watch. Track.</p>
+            <p className="eyebrow">Overview</p>
             <h1>Binary market utilities.</h1>
             <p className="hero-copy">
               PolyCore merges the advanced PolyCalc math with a real watchlist and a live monitor surface,
