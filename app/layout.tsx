@@ -9,8 +9,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'PolyCalc',
-  description: 'Open-source binary market calculator by Lurk.',
+  title: 'PolyCore',
+  description: 'Open-source binary market toolkit by Lurk.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
@@ -20,4 +20,3 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     </html>
   );
 }
-
