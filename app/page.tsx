@@ -46,7 +46,7 @@ export default function HomePage() {
         <header className="hero panel-surface">
           <div className="hero-copy-wrap">
             <p className="eyebrow">Overview</p>
-            <h1>Binary market utilities.</h1>
+            <h1>Free market tools.</h1>
             <p className="hero-copy">
               PolyCore merges the advanced PolyCalc math with a real watchlist and a live monitor surface,
               plus a CLI in the same repo for terminal-native usage.
