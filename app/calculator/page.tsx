@@ -168,7 +168,7 @@ export default function CalculatorPage() {
           ))}
         </section>
 
-        <footer className="footer panel-surface"><div className="footer-main"><div><p className="eyebrow">PolyCore</p><h2>Calculator module inside the PolyCore toolkit by Lurk.</h2><p className="section-copy footer-copy">Live contract math, shareable state, venue-aware fee presets, and clean handoff from watchlist or monitor.</p></div></div></footer>
+        <footer className="footer panel-surface"><div className="footer-main"><div><p className="eyebrow">PolyCore</p><h2>Calculator module inside the PolyCore toolkit by Lurk.</h2><p className="section-copy footer-copy">Live contract math, shareable state, and venue-aware fee presets.</p></div></div></footer>
       </div>
     </main>
   );
