@@ -28,7 +28,7 @@ function Shell({ title, subtitle, children }: { title: string; subtitle: string;
         <div className="footer-main">
           <div>
             <p className="eyebrow">PolyCore</p>
-            <h2>Fast tooling for binary market workflows.</h2>
+            <h2>Fast tooling for market workflows.</h2>
             <p className="section-copy footer-copy">Calculator, watchlists, monitor, rules, and CLI.</p>
           </div>
           <div className="footer-links">
@@ -55,7 +55,7 @@ export default function HomePage() {
           <div className="hero-copy-wrap">
             <p className="eyebrow">Overview</p>
             <h1>Open-source market tools.</h1>
-            <p className="hero-copy">Price contracts, track watchlists, monitor live markets, and run local rules from the browser or terminal.</p>
+            <p className="hero-copy">Price contracts, track watchlists, monitor markets, and run rules from the browser or CLI.</p>
             <div className="hero-actions">
               <Link className="primary-button" href="/calculator">Open calculator</Link>
               <Link className="secondary-button" href="/watchlist">Open watchlist</Link>
