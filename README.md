@@ -2,8 +2,6 @@
 
 PolyCore is the open-source, local-first utility layer for binary market workflows.
 
-It is built to be useful on its own without stepping on Lurk's core product surface.
-
 ## What PolyCore is
 
 - binary market calculator
@@ -12,22 +10,6 @@ It is built to be useful on its own without stepping on Lurk's core product surf
 - terminal / CLI utilities
 - venue adapters and raw market utilities
 - import / export friendly workflows
-
-## What PolyCore is not
-
-PolyCore does **not** do any of the following:
-
-- cross-platform market matching
-- ranked opportunity feeds
-- hosted signal generation
-- discovery or prioritization of "what matters most"
-- execution automation
-- collaborative intelligence layers
-
-That boundary is intentional.
-
-PolyCore helps you **operate on markets you already care about**.
-Lurk is where discovery, prioritization, and proprietary intelligence belong.
 
 ## Included modules
 
