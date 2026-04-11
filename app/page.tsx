@@ -15,7 +15,7 @@ function Shell({ title, subtitle, children }: { title: string; subtitle: string;
         <div className="brand-lockup">
           <div className="brand-mark">PC</div>
           <div>
-            <p className="eyebrow">Open-source, local-first market toolkit by Lurk</p>
+            <p className="eyebrow">Open-source market toolkit by Lurk</p>
             <div className="brand-line"><strong>{title}</strong><span>{subtitle}</span></div>
           </div>
         </div>
@@ -28,8 +28,8 @@ function Shell({ title, subtitle, children }: { title: string; subtitle: string;
         <div className="footer-main">
           <div>
             <p className="eyebrow">PolyCore</p>
-            <h2>Open utility layer. No discovery engine. No ranked opportunities.</h2>
-            <p className="section-copy footer-copy">Calculator, watchlists, monitor, rules, and CLI for markets you already care about.</p>
+            <h2>Fast tooling for binary market workflows.</h2>
+            <p className="section-copy footer-copy">Calculator, watchlists, monitor, rules, and CLI for people who want useful market tools without the fluff.</p>
           </div>
           <div className="footer-links">
             {nav.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
@@ -43,19 +43,19 @@ function Shell({ title, subtitle, children }: { title: string; subtitle: string;
 const modules = [
   { href: '/calculator', eyebrow: 'Analyze', title: 'Calculator', copy: 'YES / NO pricing with target entry, reverse pricing, fee presets, slippage, and sizing.' },
   { href: '/watchlist', eyebrow: 'Track', title: 'Watchlist', copy: 'Saved local watchlists, live Kalshi data, filter/sort, and one-click launch into the calculator.' },
-  { href: '/monitor', eyebrow: 'Operate', title: 'Monitor', copy: 'A live board for tracked markets with selection detail, pulse metrics, and event logs.' },
-  { href: '/rules', eyebrow: 'Anchor', title: 'Rules', copy: 'Saved alert rules that watch price, spread, status, time-to-close, and positive-EV conditions.' },
+  { href: '/monitor', eyebrow: 'Monitor', title: 'Monitor', copy: 'A live board for tracked markets with selection detail, pulse metrics, and event logs.' },
+  { href: '/rules', eyebrow: 'Automate', title: 'Rules', copy: 'Saved alert rules that watch price, spread, status, time-to-close, and positive-EV conditions.' },
 ];
 
 export default function HomePage() {
   return (
     <main className="page-shell">
-      <Shell title="PolyCore (v0.3)" subtitle="Local-first utilities for binary markets.">
+      <Shell title="PolyCore (v0.4)" subtitle="Open-source tooling for binary markets.">
         <header className="hero panel-surface">
           <div className="hero-copy-wrap">
             <p className="eyebrow">Overview</p>
-            <h1>Utility layer, not intelligence layer.</h1>
-            <p className="hero-copy">PolyCore gives you free local tooling for pricing, tracking, monitoring, and rule-based workflows without turning into a discovery product.</p>
+            <h1>Open-source tooling for binary markets.</h1>
+            <p className="hero-copy">Price contracts, track watchlists, monitor live markets, and run local rules from the browser or terminal.</p>
             <div className="hero-actions">
               <Link className="secondary-button" href="/calculator">Open calculator</Link>
               <Link className="secondary-button" href="/watchlist">Open watchlist</Link>
@@ -65,8 +65,8 @@ export default function HomePage() {
           </div>
           <div className="hero-rail">
             <div className="info-chip"><span>Calculator</span><strong>Edge, EV, Kelly, target entry, and reverse pricing.</strong></div>
-            <div className="info-chip"><span>Watchlist</span><strong>Saved local watchlists, import/export, filters, and calc handoff.</strong></div>
-            <div className="info-chip"><span>Monitor</span><strong>Live board for markets you picked, not opportunities we ranked.</strong></div>
+            <div className="info-chip"><span>Watchlist</span><strong>Saved local watchlists, import/export, filters, and calculator handoff.</strong></div>
+            <div className="info-chip"><span>Monitor</span><strong>Live board for the markets you are tracking right now.</strong></div>
             <div className="info-chip"><span>Rules</span><strong>Saved conditions for entry, spread, status, countdown, and EV.</strong></div>
           </div>
         </header>
