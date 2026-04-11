@@ -129,10 +129,6 @@ docs/        product boundary docs
 - `examples/watchlists/starter.json`
 - `examples/rules/starter.rules.json`
 
-## Product boundary
-
-Read `docs/BOUNDARY.md` for the sharp line between PolyCore and Lurk.
-
 ## License
 
 MIT
